@@ -1,0 +1,9 @@
+{
+    "interface": "eth0",
+    "rules": {
+        "suspicious_ips": ["192.168.1.100", "10.0.0.200"],
+        "suspicious_ports": [23, 80],
+        "max_packet_size": 1500,
+        "port_scan_threshold": 100
+    }
+}
